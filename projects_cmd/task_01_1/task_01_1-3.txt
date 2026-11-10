@@ -1,0 +1,9 @@
+user@mac ~/VibeRepository % cd "~/VibeRepository"
+
+user@mac ~/VibeRepository % ls -la
+total 8
+drwxr-xr-x@  4 user  staff  128 Nov 10 18:38 .
+drwxr-xr-x   3 user  staff   96 Nov 10 18:25 ..
+drwxr-xr-x@ 12 user  staff  384 Nov 10 18:25 .git
+-rw-r--r--@  1 user  staff   16 Nov 10 18:25 README.md
+

@@ -1,0 +1,15 @@
+PID TextEdit (аналог Get-Process notepad):
+69463 TextEdit
+
+Топ-10 процессов по CPU (аналог Get-Process | Sort-Object CPU -Descending | Select-Object -First 10):
+PID %CPU RSS COMM
+4623 531.2 960128 [скрыто]
+68584 53.2 328016 python
+68643 46.9 168544 ffmpeg
+372 22.3 104544 WindowServer
+59229 9.2 310496 [скрыто]
+599 8.3 34816 [скрыто]
+68644 5.6 112448 ffmpeg
+389 5.1 16800 coreaudiod
+69471 4.1 24384 [скрыто]
+69465 4.1 84720 [скрыто]

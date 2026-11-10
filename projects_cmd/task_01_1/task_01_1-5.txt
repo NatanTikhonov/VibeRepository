@@ -1,0 +1,22 @@
+user@mac ~/VibeRepository/projects_cmd % cd task_01_1
+
+user@mac ~/VibeRepository/projects_cmd/task_01_1 % echo ATGCGC > sequence.fasta
+
+user@mac ~/VibeRepository/projects_cmd/task_01_1 % cat sequence.fasta
+ATGCGC
+
+user@mac ~/VibeRepository/projects_cmd/task_01_1 % mv sequence.fasta genomic_sample.fa
+
+user@mac ~/VibeRepository/projects_cmd/task_01_1 % mkdir backup
+
+user@mac ~/VibeRepository/projects_cmd/task_01_1 % cp genomic_sample.fa backup/backup.fa
+
+user@mac ~/VibeRepository/projects_cmd/task_01_1 % cd ..
+
+user@mac ~/VibeRepository/projects_cmd % tree (find | sort)
+├── task_01_1
+│   ├── backup
+│   │   ├── backup.fa
+│   ├── genomic_sample.fa
+├── task_01_2
+├── task_01_3

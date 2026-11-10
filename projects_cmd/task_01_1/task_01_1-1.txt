@@ -1,0 +1,12 @@
+user@mac ~ % ls
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Sites
+... ещё 12 личных папок/файлов [скрыто]
+

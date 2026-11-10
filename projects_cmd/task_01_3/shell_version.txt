@@ -1,0 +1,2 @@
+Версия оболочки (аналог $PSVersionTable.PSVersion):
+zsh 5.9 

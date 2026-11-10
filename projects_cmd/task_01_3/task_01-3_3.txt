@@ -1,0 +1,13 @@
+IPv4Address: [скрыто]
+IPv4DefaultGateway: [скрыто]
+
+PING google.com ([скрыто]): 56 data bytes
+64 bytes from [скрыто]: icmp_seq=0 ttl=64 time=0.387 ms
+64 bytes from [скрыто]: icmp_seq=1 ttl=64 time=0.374 ms
+64 bytes from [скрыто]: icmp_seq=2 ttl=64 time=0.191 ms
+64 bytes from [скрыто]: icmp_seq=3 ttl=64 time=0.222 ms
+64 bytes from [скрыто]: icmp_seq=4 ttl=64 time=0.292 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.191/0.293/0.387/0.079 ms

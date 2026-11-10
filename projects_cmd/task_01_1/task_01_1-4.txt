@@ -1,0 +1,16 @@
+user@mac ~/VibeRepository % mkdir projects_cmd
+
+user@mac ~/VibeRepository % cd projects_cmd
+
+user@mac ~/VibeRepository/projects_cmd % mkdir task_01_1
+
+user@mac ~/VibeRepository/projects_cmd % mkdir task_01_2
+
+user@mac ~/VibeRepository/projects_cmd % mkdir task_01_3
+
+user@mac ~/VibeRepository/projects_cmd % ls -l
+total 0
+drwxr-xr-x@ 2 user  staff  64 Nov 10 18:38 task_01_1
+drwxr-xr-x@ 2 user  staff  64 Nov 10 18:38 task_01_2
+drwxr-xr-x@ 2 user  staff  64 Nov 10 18:38 task_01_3
+

@@ -1,0 +1,15 @@
+== hostname ==
+[скрыто]
+
+== версия оболочки (аналог $PSVersionTable) ==
+zsh 5.9 
+ProductName:		macOS
+ProductVersion:		[скрыто]
+BuildVersion:		[скрыто]
+
+== статус целостности системы (аналог sfc /verifyonly) ==
+System Integrity Protection status: enabled.
+
+== процессы с 'host' в имени, по памяти (аналог Get-Process *host* | Sort-Object WS -Descending) ==
+PID RSS COMM
+(процессов с 'host' в имени не найдено)
