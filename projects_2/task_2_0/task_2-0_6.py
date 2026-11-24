@@ -3,7 +3,7 @@ f = open("output.txt", "w", encoding="utf-8")
 print("Фамилия: Чхеидзе", file=f)
 print("Имя: Натан", file=f)
 print("Группа: 202.1", file=f)
-print("Год поступления: 2026", file=f)
+print("Год поступления: 2024", file=f)
 f.close()
 
 print("Готово, смотри файл output.txt")
