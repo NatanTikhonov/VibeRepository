@@ -2,7 +2,7 @@
 f = open("output.txt", "w", encoding="utf-8")
 print("Фамилия: Тихонов", file=f)
 print("Имя: Натан", file=f)
-print("Группа: ГРУППА", file=f)
+print("Группа: 202.1", file=f)
 print("Год поступления: 2026", file=f)
 f.close()
 
