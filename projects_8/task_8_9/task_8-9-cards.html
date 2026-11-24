@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки задач</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            border-left: 6px solid #ccc;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+        .priority-high { border-left-color: red; }
+        .priority-medium { border-left-color: orange; }
+        .priority-low { border-left-color: green; }
+        .featured {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            background: #fffbe6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Мои задачи</h1>
+
+    <div class="card priority-high featured">
+        <h3>Сдать task_2</h3>
+        <p>Python: переменные, условия, циклы.</p>
+    </div>
+    <div class="card priority-high">
+        <h3>Сдать task_8</h3>
+        <p>HTML и CSS.</p>
+    </div>
+    <div class="card priority-medium">
+        <h3>Поставить Docker</h3>
+        <p>Нужен для task_5.</p>
+    </div>
+    <div class="card priority-medium">
+        <h3>Почитать про SQL</h3>
+        <p>Тоже для task_5.</p>
+    </div>
+    <div class="card priority-low">
+        <h3>Пройти Flexbox Froggy</h3>
+        <p>Игра про CSS.</p>
+    </div>
+    <div class="card priority-low">
+        <h3>Оформить README</h3>
+        <p>Описать, что лежит в репозитории.</p>
+    </div>
+</body>
+</html>

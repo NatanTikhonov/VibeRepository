@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара</title>
+    <style>
+        /* Селектор по тегу */
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif; /* несколько шрифтов */
+            background: #f0f0f0;
+        }
+
+        /* Селектор по классу */
+        .card {
+            width: 300px;
+            background: #ffffff;
+            border: 1px solid #dddddd; /* шорткат border */
+            padding: 10px 20px 20px 20px; /* шорткат с 4 значениями */
+        }
+
+        /*
+           Несколько селекторов через запятую
+        */
+        h1, h2, h3 {
+            color: #333333;
+        }
+
+        /* Два класса на одном элементе */
+        .card.product {
+            border-radius: 8px;
+        }
+
+        .description {
+            line-height: 1.5; /* число без единицы */
+            color: #666666;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #e53935; /* цвет в HEX */
+        }
+
+        .btn.btn-primary {
+            background: #4caf50;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card product">
+        <h2>Микроскоп школьный</h2>
+        <p class="description">Увеличение до 640 раз. Подойдёт для первых опытов с клетками лука.</p>
+        <p class="price">1500 ₽</p>
+        <button class="btn btn-primary">Купить</button>
+    </div>
+</body>
+</html>

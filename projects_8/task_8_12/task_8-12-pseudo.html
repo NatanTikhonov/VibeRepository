@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Псевдоклассы</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+
+        li:first-child { color: #dd8452; font-weight: bold; }
+        li:last-child { color: #2e7d32; font-weight: bold; }
+        li:nth-child(3n) { background: #e0eaff; }
+        li:not(:first-child) { border-top: 1px solid #ddd; }
+
+        table { border-collapse: collapse; }
+        td, th { border: 1px solid #ccc; padding: 6px 12px; }
+        tr:nth-child(even) { background: #f2f2f2; }
+
+        a:hover { color: orange; }
+        a[href$=".pdf"] { color: red; }
+
+        input:focus { border: 2px solid #4caf50; outline: none; }
+        input:required { background: #fff8e1; }
+    </style>
+</head>
+<body>
+    <h1>Псевдоклассы</h1>
+
+    <ol>
+        <li>Проснуться</li>
+        <li>Позавтракать</li>
+        <li>Пойти на пары</li>
+        <li>Пообедать</li>
+        <li>Сделать домашку</li>
+        <li>Лечь спать</li>
+    </ol>
+
+    <table>
+        <tr><th>Предмет</th><th>Оценка</th></tr>
+        <tr><td>Математика</td><td>5</td></tr>
+        <tr><td>Физика</td><td>4</td></tr>
+        <tr><td>Информатика</td><td>5</td></tr>
+        <tr><td>Биология</td><td>5</td></tr>
+    </table>
+
+    <p>
+        <a href="about.html">Внутренняя ссылка</a> |
+        <a href="https://stepik.org">Stepik</a> |
+        <a href="document.pdf">PDF-документ</a>
+    </p>
+
+    <form>
+        <input type="text" placeholder="Имя">
+        <input type="email" placeholder="Email" required>
+        <button>Отправить</button>
+    </form>
+</body>
+</html>

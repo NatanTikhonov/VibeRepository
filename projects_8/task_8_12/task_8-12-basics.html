@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селекторы</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body { font-family: Arial, sans-serif; margin: 20px; }
+
+        .lead { font-size: 20px; color: #555; }
+
+        #title { color: #1565c0; }
+
+        h1, h2, h3 { margin-bottom: 10px; }
+
+        .box {
+            border: 1px solid #999;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .box.highlight { background: #fff59d; }
+
+        .box.highlight.large { font-size: 24px; padding: 20px; }
+    </style>
+</head>
+<body>
+    <h1 id="title">Тренируюсь с селекторами</h1>
+    <p>Обычный абзац без класса.</p>
+    <p class="lead">Абзац с классом lead — он крупнее.</p>
+
+    <div class="box">Просто box</div>
+    <div class="box highlight">box + highlight</div>
+    <div class="box highlight large">box + highlight + large</div>
+</body>
+</html>
