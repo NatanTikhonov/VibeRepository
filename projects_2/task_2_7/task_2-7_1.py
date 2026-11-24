@@ -3,4 +3,4 @@ sample_date = "2026-02-10"
 
 for name in files:
     new_name = name + "_" + sample_date + ".fasta"
-    print(f"{new_name}")
+    print(new_name)
